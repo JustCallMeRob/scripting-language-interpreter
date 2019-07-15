@@ -16,7 +16,7 @@ object Main {
         println("Interpretation has begun:")
         val interpreter = new Interpreter(r)
         interpreter.run
-        println("Interpretation finished: SIPOS FRANCISC-ROBERT")
+        println("Interpretation finished")
       }
       //if parsing failed display the error
       case parser.Failure(msg, n) =>{
